@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data / private artifacts
+*.csv
+!results/sample_wf_results.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.pkl
+*.joblib
+*.parquet
+models/
+data/
+raw_data/
+secrets.env
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
